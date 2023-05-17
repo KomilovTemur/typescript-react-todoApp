@@ -1,4 +1,4 @@
-# typescript-react-todoApp
+# typescript react todoApp
 
 #install dependencies
 ```
