@@ -98,3 +98,31 @@
   color: white;
   cursor: pointer;
 }
+
+.errorDialog {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: white;
+  background-color: tomato;
+  box-shadow: 1px 2px 10px 2px tomato;
+  border-radius: 10px;
+  font-size: 25px;
+  overflow: hidden;
+}
+
+.errorDialog > .dialog {
+  padding: 10px;
+}
+
+.errorDialog > .closeErrorDialog {
+  padding: 10px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+}
